@@ -1,1 +1,1 @@
-view the site here: 
+view the site here: https://dashboardachuz.netlify.app/
