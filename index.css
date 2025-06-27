@@ -19,7 +19,7 @@ main {
 
 .left_Section {
   background-color: black;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   gap: 10px;
