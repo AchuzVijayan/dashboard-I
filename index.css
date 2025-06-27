@@ -242,8 +242,8 @@ th {
 
 th,
 td {
-  text-align: left;
-  padding: 15px 100px;
+  text-align: center;
+  padding: 15px;
 }
 td {
   font-size: 18px;
