@@ -21,27 +21,55 @@
     <main>
       <section class="left_Section">
         <div id="profile">
-          <div class="profile-img"><img id="profile_picture" src="man.jpg" alt="" /></div>
+          <div class="profile-img">
+            <img id="profile_picture" src="man.jpg" alt="" />
+          </div>
           <div><h2>John Doe</h2></div>
         </div>
 
+        <details>
+          <summary>
+            <i class="fa-solid fa-bars"></i>
+          </summary>
+          <div class="navbar1">
+            <div class="nav1" id="nav11">
+              <i class="fa-solid fa-list-ul"></i
+              ><a href="#dashboard">Dashboard</a>
+            </div>
+            <div class="nav1" id="nav21">
+              <i class="fa-solid fa-tags"></i><a href="#datas">Data</a>
+            </div>
+            <div class="nav1" id="nav31">
+              <i class="fa-solid fa-user"></i><a href="#users">Users</a>
+            </div>
+            <div class="nav1" id="nav41">
+              <i class="fa-solid fa-calendar-days"></i
+              ><a href="#schedule">Schedule</a>
+            </div>
+            <div class="nav1" id="nav51">
+              <i class="fa-solid fa-gear"></i><a href="#contact">Contact</a>
+            </div>
+          </div>
+        </details>
+        
         <div class="navbar">
           <div class="nav" id="nav1">
-          <i class="fa-solid fa-list-ul"></i><a href="#dashboard">Dashboard</a>
-        </div>
-        <div class="nav" id="nav2">
-          <i class="fa-solid fa-tags"></i><a href="#datas">Data</a>
-        </div>
-        <div class="nav" id="nav3">
-          <i class="fa-solid fa-user"></i><a href="#users">Users</a>
-        </div>
-        <div class="nav" id="nav4">
-          <i class="fa-solid fa-calendar-days"></i
-          ><a href="#schedule">Schedule</a>
-        </div>
-        <div class="nav" id="nav5">
-          <i class="fa-solid fa-gear"></i><a href="#contact">Contact</a>
-        </div>
+            <i class="fa-solid fa-list-ul"></i
+            ><a href="#dashboard">Dashboard</a>
+          </div>
+          <div class="nav" id="nav2">
+            <i class="fa-solid fa-tags"></i><a href="#datas">Data</a>
+          </div>
+          <div class="nav" id="nav3">
+            <i class="fa-solid fa-user"></i><a href="#users">Users</a>
+          </div>
+          <div class="nav" id="nav4">
+            <i class="fa-solid fa-calendar-days"></i
+            ><a href="#schedule">Schedule</a>
+          </div>
+          <div class="nav" id="nav5">
+            <i class="fa-solid fa-gear"></i><a href="#contact">Contact</a>
+          </div>
         </div>
       </section>
 
@@ -180,7 +208,12 @@
               <h3>Feedback</h3>
               <form>
                 <input type="text" placeholder="Your Name" id="name" required />
-                <input type="email" placeholder="Your Email" id="email" required />
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  id="email"
+                  required
+                />
                 <textarea
                   name="feedback"
                   id="feedbackresponse"
@@ -195,9 +228,13 @@
         </article>
         <footer>
           <div id="socials">
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
             <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
           </div>
           <h3>&copy; 2025 Code With Sree. All Rights Reserved.</h3>
         </footer>
