@@ -549,7 +549,8 @@ details {
     flex-direction: column;
     position: absolute;
     background-color: #848571;
-        border-radius: 8px;
+    border-radius: 8px;
+
     /* padding: 0.5rem; */
   }
 
