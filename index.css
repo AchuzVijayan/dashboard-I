@@ -5,15 +5,15 @@
 
 html {
   font-size: 16px;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Sedan SC";
   background-color: #f5f5f5;
-      margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
   /* color: white; */
 }
 
@@ -422,9 +422,8 @@ details {
   color: white;
 }
 
-
 details {
-  display: none; 
+  display: none;
 }
 
 /* making it reponsive */
@@ -487,16 +486,15 @@ details {
   .navbar {
     display: none;
   }
-  #profile{
+  #profile {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
   }
-details{
-  align-content: center;
-  justify-self: start;
-}
-
+  details {
+    align-content: center;
+    justify-self: start;
+  }
 
   .left_Section {
     display: grid;
@@ -515,58 +513,66 @@ details{
     justify-self: center;
     /* top: 0.1rem; */
   }
-  #profile div h2{
+  #profile div h2 {
     margin: 0px;
     padding: 0px;
     justify-self: center;
   }
   header {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
   }
 
   #search {
-  width: 110px;
-  justify-self: end ;
-}
-details{
-  display: block;
-  color: white;
-}
-summary{
-      cursor: pointer;
+    width: 110px;
+    justify-self: end;
+  }
+  details {
+    display: block;
+    color: white;
+  }
+  summary {
+    cursor: pointer;
     font-size: 1.8rem;
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-details[open] > .navbar1{
-  /* position: absolute; */
-  /* top: 10rem; */
-  /* left: 20px;
-  right: 20px; */
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  background-color: #848571;
-  padding: 5px;
-  
-  
-}
+  }
+  details[open] > .navbar1 {
+    top: 8.5rem;
+    right: 20px;
+    width: 45%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    position: absolute;
+    background-color: #848571;
+        border-radius: 8px;
+    /* padding: 0.5rem; */
+  }
 
-.nav1 > a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  font-size: 16px;
-}
+  .nav1 {
+    padding: 0.5rem;
+    /* height: 1.5rem;
+    justify-items: center; */
+  }
 
+  .nav1 > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+  }
 
-.nav1:hover{
-  background-color: black;
-}
+  .nav1:hover {
+    background-color: rgb(76, 73, 73);
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px black;
+  }
 
+  .nav1:active {
+    border: 2px solid white;
+  }
 }
